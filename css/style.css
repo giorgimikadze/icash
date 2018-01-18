@@ -1,0 +1,156 @@
+#branding {
+  
+color: #00c800;
+
+}
+#newsletter {
+   float: right; 
+    color: #00c800;
+    width: 147px;
+    height: 20px;
+    font-family: Averta;
+    font-size: 19px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+#ertih1 {
+    color: #00c800;
+    width: 1009px;
+    height: 70px;
+    font-family: Averta;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+
+
+#ertip {
+    width: 720px;
+    height: 250px;
+    font-family: Averta;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #320078;
+}
+
+#orip {
+    width: 540px;
+    height: 275px;
+    font-family: Averta;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+    color: #320078;
+}
+
+#posledniiobzac {
+        width: 1440px;
+        height: 320px;
+        background-color: #00c800;
+}
+
+#firstname {
+    width: 139px;
+    height: 30px;
+    font-family: Averta;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+
+#lastname {
+    width: 139px;
+    height: 30px;
+    font-family: Averta;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+#email {
+    width: 92px;
+    height: 30px;
+    font-family: Averta;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#country {
+    width: 92px;
+    height: 30px;
+    font-family: Averta;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+
+}
+
+#amount {
+    width: 221px;
+    height: 30px;
+    font-family: Averta;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+
+}
+
+#submit {
+    width: 76px;
+    height: 20px;
+    font-family: Averta;
+    font-size: 19px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00c800;
+}
