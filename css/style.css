@@ -1,156 +1,230 @@
-#branding {
-  
-color: #00c800;
-
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Averta', 'Roboto', sans-serif;;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
 }
-#newsletter {
-   float: right; 
-    color: #00c800;
-    width: 147px;
-    height: 20px;
-    font-family: Averta;
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Averta', 'Roboto', sans-serif;;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Averta', 'Roboto', sans-serif;;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'Averta', 'Roboto', sans-serif;;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+:focus {
+    outline: 0;
+}
+
+header, section {
+    margin: 0px 80px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    border: solid 2px #00c800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Averta', 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
+    line-height: 1.05;
     letter-spacing: normal;
     text-align: center;
+    color: #00c800;
 }
 
-#ertih1 {
+.button:hover {
+    background-color: #00c800;
+    color: #fff;
+}
+
+.branding {
+    font-family: 'Averta', 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: center;
     color: #00c800;
-    width: 1009px;
-    height: 70px;
-    font-family: Averta;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.row-heading {
+    font-family: 'Averta', 'Roboto', sans-serif;
     font-size: 60px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.17;
     letter-spacing: normal;
     text-align: left;
+    color: #00c800;
 }
 
+.row {
+    display: flex;
+    margin-top: 20px;
+}
 
+.column {
+    flex: 1
+}
 
-#ertip {
-    width: 720px;
-    height: 250px;
-    font-family: Averta;
+#column-1 {
+    font-family: 'Averta', 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.25;
     letter-spacing: normal;
     text-align: left;
     color: #320078;
+    margin-right: 20px;
 }
 
-#orip {
+#column-2 {
     width: 540px;
     height: 275px;
-    font-family: Averta;
+    font-family: 'Averta', 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.32;
     letter-spacing: normal;
     text-align: left;
     color: #320078;
 }
 
-#posledniiobzac {
-        width: 1440px;
-        height: 320px;
-        background-color: #00c800;
+.container {
+    background-color: #00c800;
 }
 
-#firstname {
-    width: 139px;
-    height: 30px;
-    font-family: Averta;
-    font-size: 19px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.05;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-  }
+.subscription {
+    display: flex;
+    align-items: center;
+}
 
-
-#lastname {
-    width: 139px;
-    height: 30px;
-    font-family: Averta;
-    font-size: 19px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.05;
+.sub-left {
+    flex: 1;
+    width: 480px;
+    height: 140px;
+    font-family: 'Averta', 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.17;
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
 }
 
-
-#email {
-    width: 92px;
-    height: 30px;
-    font-family: Averta;
-    font-size: 19px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.05;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
+.sub-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0px;
 }
 
-#country {
-    width: 92px;
-    height: 30px;
-    font-family: Averta;
-    font-size: 19px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.05;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-
+.sub-right input {
+    width: 100%;
+    margin-right: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px #ffffff;
+    line-height: 2;
 }
 
-#amount {
-    width: 221px;
-    height: 30px;
-    font-family: Averta;
-    font-size: 19px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.05;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-
-}
-
-#submit {
-    width: 76px;
-    height: 20px;
-    font-family: Averta;
+.sub-right .button {
+    width: 100%;
+    border: solid 2px #ffffff;
+    margin-right: 20px;
+    color: #fff;
+    font-family: 'Averta', 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.05;
     letter-spacing: normal;
     text-align: center;
+    color: #ffffff;
+}
+
+.sub-right .button:hover {
+    background-color: #fff;
     color: #00c800;
+}
+
+.input-holder {
+    display: flex;
+    margin: 12px 0px;
+}
+
+.input-holder input {
+    flex: 1
+}
+
+.input-full {
+    display: flex;
+    align-self: stretch;
+    margin: 12px 0px;
+}
+
+footer {
+    background-color: #320078;
+    padding: 30px 0px;
+    font-family: 'Averta', 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
 }
